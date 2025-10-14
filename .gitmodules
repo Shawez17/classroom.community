@@ -1,0 +1,3 @@
+[submodule "https"]
+	path = https
+	url = https://github.com/Shawez17/classroom.community.git
