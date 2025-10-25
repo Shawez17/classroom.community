@@ -45,6 +45,7 @@ nav{
 ol{
   display:flex;
   list-style:none;
+  align-content:Center;
   font: caption;
   gap:60px;
 }
@@ -80,4 +81,15 @@ ol{
 body {
   padding-top: 30px;    /* Same as topbar height */
   padding-bottom: 40px; /* Same as bottombar height */
+}
+#content {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#content.slide-left {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+#content.slide-right {
+  transform: translateX(100%);
+  opacity: 0;
 }
