@@ -1,3 +1,4 @@
 #process
-[] php register& login form
+[X] php register& login form
+[ ] exp8: delete a user
 
